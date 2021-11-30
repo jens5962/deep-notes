@@ -1,3 +1,7 @@
+<?php
+include("./functions.php");
+include("./controller.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deep(pink)Note</title>
 </head>
-<body bgcolor="#ff1493">
+<body bgcolor="#19FF74">
     <form method="post">
         <input type="text" name="note">
         <button type="submit">Gem</button>
     </form>
     
     <ul>
-        <li>Min test note<li>
+        <li>Min test note
     </ul>
 </body>
 </html>
+DeepPink farve: #ff1493
+Cool farve: #19FF74
